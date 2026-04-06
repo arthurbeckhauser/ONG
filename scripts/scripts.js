@@ -8,6 +8,6 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
 
     if(none.lenght < 3) return alert("Nome Inválido");
 
-    document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: " + this.nodeName;
+    document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: " + nome;
 
 });
